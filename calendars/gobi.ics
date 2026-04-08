@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Coachella 2026//Stage Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Coachella 2026 – Gobi
+X-WR-CALDESC:All sets on the Gobi – Coachella 2026 (both weekends). Auto-updated.
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cb5bca46c07cb412854e0b753a05433b@coachella2026.ics
+DTSTAMP:20260408T001723Z
+DTSTART;TZID=America/Los_Angeles:20260410T202500
+DTEND;TZID=America/Los_Angeles:20260410T211000
+SUMMARY:🎶 Holly Humberstone @ Gobi
+DESCRIPTION:Artist: Holly Humberstone\\nStage: Gobi\\nWeekend: Weekend 1\\n
+ Day: Friday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial 
+ site: https://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7fbdd15e25691b6581f644aaca86a03e@coachella2026.ics
+DTSTAMP:20260408T001723Z
+DTSTART;TZID=America/Los_Angeles:20260411T210000
+DTEND;TZID=America/Los_Angeles:20260411T214500
+SUMMARY:🎶 BIA @ Gobi
+DESCRIPTION:Artist: BIA\\nStage: Gobi\\nWeekend: Weekend 1\\nDay: Saturday\
+ \nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: https:
+ //www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ae46fccf66f5f8002792b8038f51582a@coachella2026.ics
+DTSTAMP:20260408T001723Z
+DTSTART;TZID=America/Los_Angeles:20260417T202500
+DTEND;TZID=America/Los_Angeles:20260417T211000
+SUMMARY:🎶 Holly Humberstone @ Gobi
+DESCRIPTION:Artist: Holly Humberstone\\nStage: Gobi\\nWeekend: Weekend 2\\n
+ Day: Friday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial 
+ site: https://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ddd986e4eba18aaf072414dee2f75912@coachella2026.ics
+DTSTAMP:20260408T001723Z
+DTSTART;TZID=America/Los_Angeles:20260418T210000
+DTEND;TZID=America/Los_Angeles:20260418T214500
+SUMMARY:🎶 BIA @ Gobi
+DESCRIPTION:Artist: BIA\\nStage: Gobi\\nWeekend: Weekend 2\\nDay: Saturday\
+ \nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: https:
+ //www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

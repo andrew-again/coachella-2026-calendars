@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Coachella 2026//Stage Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Coachella 2026 – Quasar
+X-WR-CALDESC:All sets on the Quasar – Coachella 2026 (both weekends). Auto-updated.
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c0341245b792ff090f9f54885aa73362@coachella2026.ics
+DTSTAMP:20260408T001723Z
+DTSTART;TZID=America/Los_Angeles:20260411T210000
+DTEND;TZID=America/Los_Angeles:20260411T230000
+SUMMARY:🌀 David Guetta @ Quasar
+DESCRIPTION:Artist: David Guetta\\nStage: Quasar\\nWeekend: Weekend 1\\nDay
+ : Saturday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial s
+ ite: https://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0c897dc5dd9166b67b419428b56bbf6e@coachella2026.ics
+DTSTAMP:20260408T001723Z
+DTSTART;TZID=America/Los_Angeles:20260412T200000
+DTEND;TZID=America/Los_Angeles:20260412T220000
+SUMMARY:🌀 Fatboy Slim @ Quasar
+DESCRIPTION:Artist: Fatboy Slim\\nStage: Quasar\\nWeekend: Weekend 1\\nDay:
+  Sunday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site
+ : https://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a7ac8c6673bcaada01ce335dda188740@coachella2026.ics
+DTSTAMP:20260408T001723Z
+DTSTART;TZID=America/Los_Angeles:20260418T210000
+DTEND;TZID=America/Los_Angeles:20260418T230000
+SUMMARY:🌀 David Guetta @ Quasar
+DESCRIPTION:Artist: David Guetta\\nStage: Quasar\\nWeekend: Weekend 2\\nDay
+ : Saturday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial s
+ ite: https://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:662c1a549443efb5ae3c9337affe1e08@coachella2026.ics
+DTSTAMP:20260408T001723Z
+DTSTART;TZID=America/Los_Angeles:20260419T200000
+DTEND;TZID=America/Los_Angeles:20260419T220000
+SUMMARY:🌀 Fatboy Slim @ Quasar
+DESCRIPTION:Artist: Fatboy Slim\\nStage: Quasar\\nWeekend: Weekend 2\\nDay:
+  Sunday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site
+ : https://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
