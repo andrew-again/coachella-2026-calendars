@@ -1,0 +1,138 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Coachella 2026//Stage Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Coachella 2026 – Sahara
+X-WR-CALDESC:All sets on the Sahara – Coachella 2026 (both weekends). Auto-updated.
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:15e06d5be7dc3cf1038b6a7495d41449@coachella2026.ics
+DTSTAMP:20260407T060014Z
+DTSTART;TZID=America/Los_Angeles:20260410T200000
+DTEND;TZID=America/Los_Angeles:20260410T204500
+SUMMARY:🔊 KATSEYE @ Sahara
+DESCRIPTION:Artist: KATSEYE\\nStage: Sahara\\nWeekend: Weekend 1\\nDay: Fri
+ day\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: ht
+ tps://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:09c2152b3ae0f4201911b9dde2f570bb@coachella2026.ics
+DTSTAMP:20260407T060014Z
+DTSTART;TZID=America/Los_Angeles:20260410T225000
+DTEND;TZID=America/Los_Angeles:20260410T234000
+SUMMARY:🔊 Swae Lee @ Sahara
+DESCRIPTION:Artist: Swae Lee\\nStage: Sahara\\nWeekend: Weekend 1\\nDay: Fr
+ iday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: h
+ ttps://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3fb866fa178ca0bf7178d708999e37bb@coachella2026.ics
+DTSTAMP:20260407T060014Z
+DTSTART;TZID=America/Los_Angeles:20260411T000500
+DTEND;TZID=America/Los_Angeles:20260411T005500
+SUMMARY:🔊 Sexyy Red @ Sahara
+DESCRIPTION:Artist: Sexyy Red\\nStage: Sahara\\nWeekend: Weekend 1\\nDay: F
+ riday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: 
+ https://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:94b0b8a3d3fcf96faeb89b7fc8df6275@coachella2026.ics
+DTSTAMP:20260407T060014Z
+DTSTART;TZID=America/Los_Angeles:20260412T224500
+DTEND;TZID=America/Los_Angeles:20260412T235500
+SUMMARY:🔊 Kaskade @ Sahara
+DESCRIPTION:Artist: Kaskade\\nStage: Sahara\\nWeekend: Weekend 1\\nDay: Sun
+ day\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: ht
+ tps://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1a3fc09a484ffbfb0887997eae3a852f@coachella2026.ics
+DTSTAMP:20260407T060014Z
+DTSTART;TZID=America/Los_Angeles:20260417T200000
+DTEND;TZID=America/Los_Angeles:20260417T204500
+SUMMARY:🔊 KATSEYE @ Sahara
+DESCRIPTION:Artist: KATSEYE\\nStage: Sahara\\nWeekend: Weekend 2\\nDay: Fri
+ day\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: ht
+ tps://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8f6b0f9f661a96eb51fff3a18ec6c577@coachella2026.ics
+DTSTAMP:20260407T060014Z
+DTSTART;TZID=America/Los_Angeles:20260417T225000
+DTEND;TZID=America/Los_Angeles:20260417T234000
+SUMMARY:🔊 Swae Lee @ Sahara
+DESCRIPTION:Artist: Swae Lee\\nStage: Sahara\\nWeekend: Weekend 2\\nDay: Fr
+ iday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: h
+ ttps://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fbdaf8523fd3d42176317f95514bce10@coachella2026.ics
+DTSTAMP:20260407T060014Z
+DTSTART;TZID=America/Los_Angeles:20260418T000500
+DTEND;TZID=America/Los_Angeles:20260418T005500
+SUMMARY:🔊 Sexyy Red @ Sahara
+DESCRIPTION:Artist: Sexyy Red\\nStage: Sahara\\nWeekend: Weekend 2\\nDay: F
+ riday\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: 
+ https://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1e3cdb66841d3c22871b610201a6b56a@coachella2026.ics
+DTSTAMP:20260407T060014Z
+DTSTART;TZID=America/Los_Angeles:20260419T224500
+DTEND;TZID=America/Los_Angeles:20260419T235500
+SUMMARY:🔊 Kaskade @ Sahara
+DESCRIPTION:Artist: Kaskade\\nStage: Sahara\\nWeekend: Weekend 2\\nDay: Sun
+ day\\nCoachella 2026 – Empire Polo Club\\\, Indio CA\\nOfficial site: ht
+ tps://www.coachella.com
+LOCATION:Empire Polo Club\, 81-800 Avenue 51\, Indio\, CA 92201
+URL:https://www.coachella.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
