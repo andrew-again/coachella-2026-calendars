@@ -1,0 +1,57 @@
+name: 🎪 Coachella Calendar Auto-Update
+
+on:
+  # Run every 6 hours around the clock
+  schedule:
+    - cron: "0 */6 * * *"
+
+  # Also allow manual trigger from GitHub UI
+  workflow_dispatch:
+
+  # Run on any push to main (so edits to schedule data deploy instantly)
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_calendars.py"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit updated .ics files back to the repo
+
+    steps:
+      # ── 1. Checkout ────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ── 2. Python setup ────────────────────────────────────────────────────
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ── 3. Install dependencies ────────────────────────────────────────────
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      # ── 4. Generate / refresh calendar files ──────────────────────────────
+      - name: Generate ICS files
+        run: python scripts/generate_calendars.py
+
+      # ── 5. Commit & push if anything changed ──────────────────────────────
+      - name: Commit updated calendars
+        run: |
+          git config user.name  "Coachella Cal Bot"
+          git config user.email "actions@github.com"
+          git add calendars/
+          # Only commit if there are actual changes
+          if git diff --staged --quiet; then
+            echo "No calendar changes detected – nothing to commit."
+          else
+            TIMESTAMP=$(date -u "+%Y-%m-%d %H:%M UTC")
+            git commit -m "🎵 Auto-update calendars – $TIMESTAMP"
+            git push
+          fi
